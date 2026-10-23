@@ -7,7 +7,7 @@ html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 80px);scroll-behavio
 body{margin:0;background:var(--ink);color:#fff;font:400 17px/1.7 var(--bd)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--ink);z-index:30}
 :focus-visible{outline:2px solid var(--lgold);outline-offset:3px}
-.lg{display:block;background:var(--lg) center/cover no-repeat;aspect-ratio:1050/916;border-radius:10px;flex:none}
+.lg{display:block;background:var(--lg) center/cover no-repeat;aspect-ratio:860/750;flex:none}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 20px;padding:10px clamp(16px,4vw,56px);background:var(--ink);border-bottom:1px solid var(--line)}
 .brand{display:flex;align-items:center;gap:14px;color:#fff;text-decoration:none}
 .brand .lg{width:50px}
